@@ -2,4 +2,5 @@ old/
 dontup/
 backups/
 database.php
+dbSettings.php
 DontUpload/
