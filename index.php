@@ -8,6 +8,7 @@ $db = new MysqliDb($dbSettings['HN'], $dbSettings['UN'], $dbSettings['PW'], $dbS
 $NavigationLinks = $db->get('cmsNavigationLinks'); //contains an array of all users
 
 p($NavigationLinks[0]['LinkTitle']);
+
 /*echo "<pre>";
 print_r($NavigationLinks);
 echo "</pre>";*/
